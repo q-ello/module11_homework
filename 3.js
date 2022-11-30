@@ -1,9 +1,9 @@
 function sum(a){
-  return function(b = 7){
+  return function(b){
     console.log(a + b);
     return a + b;
   }
 }
 
 let result = sum(10);
-result();
+result(7);
