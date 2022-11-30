@@ -1,9 +1,9 @@
 function sum(a){
-    return function(b){
-      console.log(a + b);
-      return a + b;
-    }
+  return function(b = 7){
+    console.log(a + b);
+    return a + b;
+  }
 }
 
-let result = f1(num);
-a();
+let result = sum(10);
+result();

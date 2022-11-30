@@ -6,3 +6,5 @@ function printNums(a, b){
         curr++;
     }, 1000)
 }
+
+printNums(5, 15);

@@ -15,9 +15,14 @@ function checkNum(a){
         }
         else check = 2;
         if (check == 0){
-            console.log("Это число простое.");
+            console.log(`Число ${a} простое.`);
         }
-        else if (check == 1) console.log("Это число составное.");
-        else console.log("Это число не является ни простым, ни составным.")
+        else if (check == 1) console.log(`Число ${a} составное.`);
+        else console.log(`Число ${a} не является ни простым, ни составным.`)
     }
 }
+
+checkNum(17);
+checkNum(-7);
+checkNum(2);
+checkNum(1);
